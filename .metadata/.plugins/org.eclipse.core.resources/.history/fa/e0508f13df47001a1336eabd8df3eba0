@@ -1,0 +1,9 @@
+@Scenario:
+Feature: Verify the admin login
+Given: 
+When: Successfully login
+ 
+ 
+
+  
+

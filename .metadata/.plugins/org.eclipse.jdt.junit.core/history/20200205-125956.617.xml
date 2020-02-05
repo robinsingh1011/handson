@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="runner" project="handsoncu" tests="3" started="3" failures="0" errors="1" ignored="0">
+  <testsuite name="runn.runner" time="0.0">
+    <testsuite name="Feature: login:" time="0.0">
+      <testcase name="verify the admin login:" classname="login:" time="0.0">
+        <error>java.lang.NullPointerException&#13;
+	at stepdefinition.steps.user_is_on_home_page(steps.java:30)&#13;
+	at ✽.User is on home page(feature/handson.feature:4)&#13;
+&#13;
+</error>
+      </testcase>
+      <testcase name="Subcategory" classname="login:" time="0.0">
+        <skipped>cucumber.runtime.junit.UndefinedThrowable: The step "User successfully login" is undefined&#13;
+&#13;
+cucumber.runtime.junit.UndefinedThrowable: The step "user will select "sports" and "&lt;subCategory&gt;"" is undefined&#13;
+&#13;
+cucumber.runtime.junit.UndefinedThrowable: The step "user successfully add the product" is undefined&#13;
+&#13;
+</skipped>
+      </testcase>
+      <testcase name="Subcategory" classname="login:" time="0.0">
+        <skipped>cucumber.runtime.junit.UndefinedThrowable: The step "User successfully login" is undefined&#13;
+&#13;
+cucumber.runtime.junit.UndefinedThrowable: The step "user will select "sports" and "&lt;subCategory&gt;"" is undefined&#13;
+&#13;
+cucumber.runtime.junit.UndefinedThrowable: The step "user successfully add the product" is undefined&#13;
+&#13;
+</skipped>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

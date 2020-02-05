@@ -1,0 +1,14 @@
+Feature: login:
+Scenario Outline: verify the admin login:
+
+ Given User is on home page
+ When User is on login page
+ And User enter "<username>" nad "<password>"
+ Then  User should successfully login
+ 
+ Examples:
+ |username|password|
+ |admin|admin|
+
+  
+
